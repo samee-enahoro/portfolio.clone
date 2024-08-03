@@ -1,0 +1,672 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    background-image: linear-gradient(180deg, rgb(30, 40, 53), black);
+    margin: auto;
+    overflow: hidden;
+}
+
+/*.logos{
+    font-size: 50px;
+    display: inline;
+    margin:250px;
+    color:white;
+}
+p{
+    font-size: 20px;
+    margin-left: 250px ;
+    margin-right: px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mypic{
+    border-radius: 20px;
+    width: 300px;
+    padding-bottom: 50px;
+    justify-content: right;
+    float:inline-end;
+    
+    
+    margin-right: 200px;
+    
+  
+}
+.mypic:hover{
+    background-color: rgb(62, 62, 62) ;
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.primary-nav{
+
+}
+ul {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+margin-left: 70px;
+    color: rgb(106, 101, 101);
+    gap:3em;
+    list-style: none;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.buttons{
+    color: rgb(54, 39, 39);
+    font-size: x;
+    list-style: none;
+    margin-left: 250px;
+}
+button{
+    padding:15px 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(251,146,60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(62, 62, 62) ;
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+
+
+.navbar-logo {
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  background: linear-gradient(45deg, #1f1fff, hsl(120, 95%, 35%), hsl(283, 93%, 32%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  
+}
+
+
+
+.download{
+    justify-content: end;
+}
+
+.basicinfo{
+margin-left: 250px;
+color: beige;
+}
+h3{
+    font-size: 50px;
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif
+   
+
+}
+h2{
+   font-size: 40px;
+}
+.fa-linkedin{
+    display: inline;
+}
+.bio{
+    font-size: 24px;
+    margin-left: 250px;
+    margin-right: 325px ;
+}
+.about{
+    color: white;
+    margin-left: 250px;
+    margin-right: 300px ;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.ptag{
+    font-size: 20px;
+    margin-left: 250px ;
+    margin-right: 850px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+.projects{
+    color: white;
+    margin-left: 250px;
+    margin-right: 300px ;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.cardcontainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+
+}
+.card{
+    background: white;
+    width: 420px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.card-image{
+    background-color: aqua;
+    height:200px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-1{
+    background-image: url(itunes.png);
+}
+.card2{
+    background-image: url(games.png);
+}
+.card-3{
+    background-image: url(samee-shub.png);
+}
+.card:hover{
+    background-color: rgb(62, 62, 62) ;
+    color: white;
+    transform: scale(1.1);
+}
+.buttons2{
+    color: white;
+    background-color: rgb(59,130,246);
+}
+.car-1{
+    background-image: url(HTML5_Badge.svg.png);
+    width: 200px;
+}
+
+.car-2{
+    background-image: url(pngwing.com.png);
+    width: 210px;
+}
+
+.car-3{
+    background-image: url(JavaScript-logo.png);
+    width: 210px;
+}
+
+.car-4{
+    background-image: url(icons8-react-a-javascript-library-for-building-user-interfaces-96-LYxsbuPE.png);
+    width: 210px;
+}
+
+.car-5{
+    background-image: url(Tailwind_CSS_Logo.svg);
+    size-adjust:initial;
+}
+
+.car-6{
+    background-image: url(node-3.png);
+    
+}
+
+.car-7{
+    background-image: url(mongodb-icon-1.svg);
+    width: 210px;
+}
+.car-8{
+    background-image: url(pngwing.com\ \(2\).png);
+    width: 210px;
+}
+.car-9{
+    background-image: url(pngwing.com\ \(3\).png);
+    width: 210px;
+}
+
+.card-2{
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    border: 15px;
+    border-radius:  25px;
+   
+}
+.cardcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+.card-image2{
+    background-color: black;
+    height:200px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px ;
+}
+.card-2:hover{
+    background-color:black ;
+    color: white;
+    transform: scale(1.05);
+  }
+  @media (min-width: 768px) {
+    .md\:px-16 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+.formss{
+    justify-content:center ;
+    padding-left:30%
+}
+.forms-button{
+   justify-content: center;
+   display: flex;
+    background-color:rgb(27,160,225) ;
+    padding-left:33%
+
+}
+.cv{
+    justify-content: right;
+    padding-left: 800px;
+}
+
+.navbar {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5%;
+} */
+
+
+
+/* Remove all margins and paddings */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+
+
+.nav-list {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 17px;
+    color: rgb(153, 141, 141);
+    list-style: none;
+}
+
+
+button {
+    padding: 15px 40px;
+    cursor: pointer;
+    color: black;
+    border-radius: 12px;
+
+    font-size: 15px;
+    color: white;
+    background-color: rgb(251, 146, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    transform: scale(1.1);
+    transition: all 1ms ease;
+}
+
+.navbar-logo {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background: linear-gradient(45deg, #1f1fff, hsl(120, 95%, 35%), hsl(283, 93%, 32%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    padding: 12rem;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.typing-container {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.typing-text {
+    display: flex;
+    position: absolute;
+    color: rgb(63, 115, 217);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(30, end) infinite,
+        blink-caret 0.75s step-end infinite;
+}
+
+.typing-text span {
+    display: inline-block;
+    animation: changeText 2s infinite;
+}
+
+/* .typing-text .text1 { animation-delay: 1ms; }
+.typing-text .text2 { animation-delay: 1ms; }
+.typing-text .text3 { animation-delay:0ms; } */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+
+
+
+.top-hero {
+    width: 50%;
+}
+
+.bottom-hero {
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.bottom-hero img {
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.mygoal {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: -7rem;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icons>a {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    transition: var(--transition);
+}
+
+.social-icons>* {
+    background: hsl(240, 17%, 17%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    background: white;
+    width: 1.8rem;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    scale: 1.2rem;
+    background: white;
+}
+
+.subheadings {
+    padding-left: 7rem;
+    font-weight: 500;
+}
+
+a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+p {
+    padding-left: 7rem;
+    font-size: 1.2rem;
+    padding-right: 5rem;
+}
+
+ .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+} 
+
+.projects .works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: 9rem;
+   padding-right: 9rem;
+
+    
+
+}
+
+.card-image {
+    
+    display: grid;
+    border: 1px solid white;
+    
+    /* justify-content: space-around; */
+    border-radius: 10px;
+}
+
+.description {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.projects .btn_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects button {
+    background: rgb(59 130, 246);
+    color: white;
+
+    padding: 0.7rem 1rem;
+}
+
+.cardimage {
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+    transition: all 300ms ease-in-out;
+}
+/* .card-image :hover{
+    background-color:black ;
+    color: white;
+    transform: scale(1.05);
+} */
+ .monkey :hover{
+    background-color:black ;
+    color: white;
+    transform: scale(1.02);
+ }
+
+h4 {
+    font-size: 20px;
+   
+}
+
+.card-heading{
+    margin-right: 1rem ;
+    align-items: center;
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* .cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+ 
+.html-css-js, .tailwind-node-mongo-express, .java {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skill {
+    --clr-shadow:white;
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+    box-shadow: var(--box-shadow) var(--clr-shadow);
+    gap: 1rem;
+    width: 90%;
+    transition: var(--transition);
+
+    img:hover {
+        scale: 1.05;
+    }
+}
+
+.skills >.html-css-js >:nth-child(1) {
+    --clr-shadow: orangered;
+}
+.skills >.html-css-js>:nth-child(2) {
+    --clr-shadow: rgb(47, 143, 252);
+}
+.skills >.html-css-js>:nth-child(3) {
+    --clr-shadow: yellow;
+}
+.skills >.html-css-js>:nth-child(4) {
+    --clr-shadow: rgb(3, 108, 228);
+}
+.skills >.tailwind-node-mongo-express>:nth-child(1) {
+    --clr-shadow: hsl(192, 95%, 39%);
+}
+.skills >.tailwind-node-mongo-express>:nth-child(2) {
+    --clr-shadow: hsl(120, 87%, 43%);
+}
+.skills >.tailwind-node-mongo-express>:nth-child(3) {
+    --clr-shadow: hsl(120, 81%, 65%);
+}
+.skills >.tailwind-node-mongo-express>:nth-child(4) {
+    --clr-shadow: #fff;
+}
+.skills >.java>:nth-child(1) {
+    --clr-shadow: rgb(241, 30, 30);
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    button {
+        background: var(--cta-btn-clr);
+        color: white;
+        padding: var(--padding);
+
+    }
+}
+
+.form-container input,
+.form-container textarea {
+    place-items: center;
+    width: 30rem;
+    background: transparent;
+    padding: 1rem;
+    font-size: 1rem;
+    border: .1rem solid var(--border-color);
+    border-radius: var(--border-rad);
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
